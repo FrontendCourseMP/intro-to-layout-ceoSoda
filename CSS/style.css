@@ -79,7 +79,7 @@
   --background-color: gray;
   --tex-color: white;
   --tex-color-2: #4B4B4B;
-  --primary-color:#F3F1EC;
+  --primary-color: #F3F1EC;
   font-size: 62.5%;
 }
 
@@ -110,6 +110,7 @@ body {
   background-color: #9EAF7C;
   margin: 0 auto;
   display: block;
+  border-radius: 1rem;
 
 }
 
@@ -119,6 +120,7 @@ body {
   text-align: center;
   color: var(--tex-color);
   font-weight: 400;
+  text-decoration: none;
 }
 
 .firstpageul {
@@ -137,6 +139,7 @@ body {
   color: var(--tex-color-2);
   font-style: italic;
 }
+
 .blockyears {
   color: #9EAF7C;
   font-size: 7rem;
@@ -144,6 +147,7 @@ body {
   font-family: Philosopher, serif;
   font-weight: 700;
 }
+
 .blockyears2 {
   font-size: 1.8rem;
   font-family: inter, sans-serif;
@@ -151,6 +155,7 @@ body {
   text-align: center;
   color: var(--tex-color-2);
 }
+
 .sobstvenoyeproizvodstvo {
   font-size: 3rem;
   font-family: Philosopher, serif;
@@ -158,6 +163,7 @@ body {
   text-align: center;
   color: #9EAF7C;
 }
+
 .philosopher2serif {
   font-size: 2.6rem;
   font-family: Philosopher, serif;
@@ -165,13 +171,15 @@ body {
   text-align: center;
   color: var(--tex-color-2);
 }
+
 .inter16sans400 {
-    font-size: 1.6rem;
-    font-family: inter, sans-serif;
-    text-align: center;
-    color: var(--tex-color-2);
-    font-weight: 400;
+  font-size: 1.6rem;
+  font-family: inter, sans-serif;
+  text-align: center;
+  color: var(--tex-color-2);
+  font-weight: 400;
 }
+
 .inter16sans600 {
   font-size: 1.6rem;
   font-family: inter, sans-serif;
@@ -179,6 +187,7 @@ body {
   color: var(--tex-color-2);
   font-weight: 600;
 }
+
 .philosopher16serif700 {
   font-size: 1.6rem;
   font-family: Philosopher, serif;
@@ -186,21 +195,24 @@ body {
   color: var(--tex-color-2);
   font-weight: 700;
 }
-.philosopher32sans300{
+
+.philosopher32sans300 {
   font-size: 3.2rem;
   font-family: Philosopher, sans-serif;
   text-align: center;
   color: var(--tex-color);
   font-weight: 300;
 }
-.inter24sans300{
+
+.inter24sans300 {
   font-size: 2.4rem;
   font-family: inter, sans-serif;
   text-align: center;
   color: var(--tex-color);
   font-weight: 300;
 }
-.philosopher32serif400{
+
+.philosopher32serif400 {
   font-size: 3.2rem;
   font-family: Philosoper, serif;
   text-align: center;
@@ -208,33 +220,38 @@ body {
   font-weight: 400;
   font-style: italic;
 }
-.inter14sans400{
+
+.inter14sans400 {
   font-size: 1.4rem;
   font-family: inter, sans-serif;
   text-align: center;
   color: var(--tex-color);
   font-weight: 400;
 }
-.inter1sans400white{
+
+.inter1sans400white {
   font-size: 1rem;
   font-family: inter, sans-serif;
   text-align: center;
   color: var(--tex-color);
   font-weight: 400;
 }
-.inter1sans400dark{
+
+.inter1sans400dark {
   font-size: 1rem;
   font-family: inter, sans-serif;
   text-align: center;
   color: var(--tex-color-2);
   font-weight: 400;
 }
+
 .philosopher28serif700 {
   font-size: 2.8rem;
   font-family: Philosopher, serif;
   color: var(--tex-color-2);
   font-weight: 700;
 }
+
 .inter16sans600 {
   font-size: 1.6rem;
   font-family: inter, sans-serif;
@@ -242,13 +259,15 @@ body {
   color: var(--tex-color-2);
   font-weight: 400;
 }
-.inter14sans400dark{
+
+.inter14sans400dark {
   font-size: 1.4rem;
   font-family: inter, sans-serif;
   text-align: left;
   color: var(--tex-color-2);
   font-weight: 400;
 }
+
 .philosopher16serif400 {
   font-size: 1.6rem;
   font-family: Philosopher, serif;
