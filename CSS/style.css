@@ -276,11 +276,3 @@ body {
   font-weight: 400;
   background-color: #9EAF7C;
 }
-.philosopher16serif400 {
-  font-size: 1.6rem;
-  font-family: Philosopher, serif;
-  text-align: center;
-  color: var(--tex-color);
-  font-weight: 400;
-  background-color: #9EAF7C;
-}
