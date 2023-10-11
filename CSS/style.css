@@ -276,3 +276,6 @@ body {
   font-weight: 400;
   background-color: #9EAF7C;
 }
+.textarea{
+  resize: none;
+}

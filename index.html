@@ -24,7 +24,7 @@
             <h1 class="heading">Уличная мебель<span class="headingizdereva"> из натурального дерева</span>от
                 Казахстанского производителя</h1>
             <form>
-                <button class="button"><a href="" class="zayavka">Оставить заявку</a></button>
+                <button class="button zayavka">Оставить заявку</button>
             </form>
             <ul class="firstpageul">
                 <li>
@@ -59,7 +59,7 @@
                         <p class="blockyears2">В г.Алматы</p>
                     </li>
             </div>
-            <button class="button"><a href="" class="zayavka">Оставить заявку</a></button>
+            <button class="button zayavka">Оставить заявку</button>
         </section>
         <section>
             <h2 class="okompanii">Об изделияx</h2>
@@ -137,24 +137,29 @@
                     </li>
                 </ul>
             </div>
-            <button class="button"><a href="" class="zayavka">Оставить заявку</a></button>
+            <button class="button zayavka">Оставить заявку</button>
         </section>
         <section class="whitetextsection">
             <h2 class="philosopher32sans300">Ничего не подошло?</h2>
             <p class="inter24sans300">Тогда мы можем изготовить для вас мебель</p>
             <p class="philosopher32serif400">по индивидуальному дизайну</p>
             <form class="inter14sans400">
-                <input type="text" placeholder="Ваше имя*">
+                <label for="form_name">
+                    <span>Поле ввода имени</span>
+                    <input type="text" id="form_name" placeholder="Ваше имя*">
+                </label>
+                <label for="form_tel">
+                    <span>Поле ввода телефона</span>
+                    <input type="tel" id="form_tel" placeholder="Ваш телефон*">
+                </label>
+                <label for="form_comment">
+                    <span>комментарий</span>
+                    <textarea id="form_comment" placeholder="Ваш комментарий" class="textarea"></textarea>
+                </label>
+                <p class="inter1sans400white">Нажимая на кнопку, вы даете согласие на <a href=" "
+                        class="inter1sans400dark">обработку персональных данных</a></p>
+                <button class="button zayavka">Оставить заявку</button>
             </form>
-            <form class="inter14sans400">
-                <input type="text" placeholder="Ваш телефон*">
-            </form>
-            <form class="inter14sans400">
-                <input type="text" placeholder="Ваш комментарий">
-            </form>
-            <p class="inter1sans400white">Нажимая на кнопку, вы даете согласие на <span
-                    class="inter1sans400dark">обработку персональных данных</span></p>
-            <button class="button"><a href="" class="zayavka">Оставить заявку</a></button>
         </section>
         <section>
             <h2 class="okompanii">Как получить заказ?</h2>
@@ -183,7 +188,7 @@
                     </li>
                 </ul>
             </div>
-            <button class="button"><a href="" class="zayavka">Оставить заявку</a></button>
+            <button class="button zayavka">Оставить заявку</button>
         </section>
         <section>
             <h2 class="okompanii">Отзывы</h2>
@@ -256,7 +261,7 @@
                 </ul>
                 <img src=" " alt=" ">
             </div>
-            <button class="button"><a href="" class="zayavka">Оставить заявку</a></button>
+            <button class="button zayavka">>Оставить заявку</button>
         </section>
         <section>
             <h2 class="okompanii">Наши клиенты</h2>
@@ -323,10 +328,12 @@
                         <p>БИК IRTYKZKA в АО "ForteBank</p>
                     </li>
                     <li>
-                        <p>мобильный/ватсап <a href=" ">+ 7 778 775 77 68</a>, <a href="mailto:info@fintax.kz">info@fintax.kz</a></p>
+                        <p>мобильный/ватсап <a href=" ">+ 7 778 775 77 68</a>, <a
+                                href="mailto:info@fintax.kz">info@fintax.kz</a></p>
                     </li>
                 </ul>
             </div>
         </footer>
 </body>
+
 </html>
