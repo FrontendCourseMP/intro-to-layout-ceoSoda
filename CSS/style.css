@@ -88,7 +88,7 @@
 }
 
 .wrapper {
-  max-width: 320px;
+  max-width: 340px;
   width: 100%;
   margin: 0 auto;
   padding: 0 8px;
@@ -191,8 +191,9 @@ header {
 }
 .info_img{
   display: flex;
-  width: 16px;
-  margin: auto;
+  width: 300px;
+  height: 360px;
+  margin-top: 3.5rem;
 }
 
 .info_txt-gr {
@@ -201,6 +202,7 @@ header {
   text-align: center;
   font-family: Philosopher, serif;
   font-weight: 700;
+  margin: 5.3rem 0px 0px;
 }
 
 .info_txt-bl {
@@ -209,6 +211,7 @@ header {
   font-weight: 300;
   text-align: center;
   color: var(--tex-color-2);
+  margin:auto
 }
 
 .info_txt-s {
@@ -217,22 +220,31 @@ header {
   font-weight: 700;
   text-align: center;
   color: #9EAF7C;
+  margin: 5.3rem 0px 0px;
 }
-
+.product_flex {
+  display: flex;
+  flex-direction: row;
+}
 .product_ttl {
   font-size: 2.6rem;
   font-family: Philosopher, serif;
   font-weight: 700;
   text-align: center;
   color: var(--tex-color-2);
+  margin: 0;
+  width: 2rem;
 }
 
 .product_p {
   font-size: 1.6rem;
   font-family: inter, sans-serif;
-  text-align: center;
   color: var(--tex-color-2);
   font-weight: 400;
+  margin: 0;
+}
+.product_p-mrgn{
+  margin: 0 0 13.2rem;
 }
 
 .product_p-f {
@@ -242,13 +254,41 @@ header {
   color: var(--tex-color-2);
   font-weight: 600;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
 
+}
+.cat_li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 139px;
+}
+.cat_ul-s{
+  margin: 0;
+  padding: 0;
+}
+.cat_img-b{
+  display: flex;
+  width: 300px;
+  height: 360px;
+  margin: 0;
+}
+.cat_img-s{
+  display: flex;
+  width: 139px;
+  height: 132px;
+  margin: 0 ;
+}
 .cat_p {
   font-size: 1.6rem;
   font-family: Philosopher, serif;
-  text-align: center;
   color: var(--tex-color-2);
   font-weight: 700;
+
 }
 
 .fb_ttl1 {
@@ -257,23 +297,24 @@ header {
   text-align: center;
   color: var(--tex-color);
   font-weight: 300;
+  padding-top: 9rem;
 }
 
 .fb_ttl2 {
   font-size: 2.4rem;
   font-family: inter, sans-serif;
-  text-align: center;
   color: var(--tex-color);
   font-weight: 300;
+  margin: auto;
 }
 
 .fb_ttl3 {
   font-size: 3.2rem;
   font-family: Philosoper, serif;
-  text-align: center;
   color: var(--tex-color);
   font-weight: 400;
   font-style: italic;
+  margin: 0.8rem 0;
 }
 
 .frm {
@@ -283,13 +324,20 @@ header {
   color: var(--tex-color);
   font-weight: 400;
 }
+.frm_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
 
+}
 .frm_p-wh {
   font-size: 1rem;
   font-family: inter, sans-serif;
-  text-align: center;
   color: var(--tex-color);
   font-weight: 400;
+  text-align: left;
+  padding: 0.5rem;
 }
 
 .frm_p-gr {
