@@ -102,14 +102,56 @@
 body {
   background-color: var(--primary-color);
 }
-
-header {
+.block{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+.whitetextsection {
+  height: 65.1rem;
+  background-image: url("/img/559bb388d739db9c58bf1a58ea9d6084.png");
   background-color: #9EAF7C;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
 }
 
-.whitetextsection {
-  background-color: #9EAF7C;
-  height: 65.1rem ;
+.head_logo{
+  width: 11.3rem;
+  height: 4.5rem;
+  margin-top: 2.1rem;
+  margin-bottom: 6rem;
+}
+
+.head_menu {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.head_btn{
+  background: transparent;
+  border: none;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-top: 2.1rem;
+  margin-bottom: 6rem;
+
+}
+.container,
+.faq_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+}
+
+.intro_section-cor{
+  padding-top: 12.6rem;
 }
 
 .intro_ttl1 {
@@ -119,7 +161,6 @@ header {
   text-align: left;
   color: var(--tex-color);
   margin: 0;
-  padding-top: 4.6rem;
 }
 
 .intro_ttl2 {
@@ -141,12 +182,19 @@ header {
   width: 300px;
 }
 
-.btn {
+.btn,
+.faq_btn {
   background-color: #9EAF7C;
   margin: 3rem auto;
   display: block;
   border-radius: 1rem;
-  padding: 1rem 5rem;
+  text-decoration: none;
+  width: 30rem;
+  height: 5.8rem;
+  text-align: center;
+  border: none;
+  margin: 4.1rem auto;
+  padding: 2rem;
 }
 
 .btn_txt {
@@ -236,13 +284,15 @@ header {
   width: 2rem;
 }
 
-.product_p {
+.product_p,
+.faq_p{
   font-size: 1.6rem;
   font-family: inter, sans-serif;
   color: var(--tex-color-2);
   font-weight: 400;
   margin: 0;
 }
+
 .product_p-mrgn{
   margin: 0 0 13.2rem;
 }
@@ -254,13 +304,7 @@ header {
   color: var(--tex-color-2);
   font-weight: 600;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: start;
-
-}
+  
 .cat_li {
   display: flex;
   flex-direction: column;
@@ -349,19 +393,45 @@ header {
   font-weight: 400;
 }
 
+.faq_ttl-align{
+ margin: 1.7rem;
+}
+
 .faq_ttl {
   font-size: 2.8rem;
   font-family: Philosopher, serif;
   color: var(--tex-color-2);
   font-weight: 700;
+  margin: 1.7rem;
 }
 
-.inter16sans600 {
-  font-size: 1.6rem;
-  font-family: inter, sans-serif;
-  text-align: left;
-  color: var(--tex-color-2);
-  font-weight: 400;
+.faq_li-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: var(--tex-color);
+  border-radius: 2rem;
+  width: 30.1rem;
+  height: 40.6rem;
+  column-gap: 200px;
+  list-style: none;
+  margin-bottom: 3.5rem;
+}
+.faq_p {
+  margin: 1.7rem;
+}
+.faq_img-align {
+  display: block;
+  margin: 4.8rem 10rem;
+}
+
+.faq_btn {
+  margin-top: 0;
+}
+.faq_container{
+  flex-direction: column;
+  align-items: center;
 }
 
 .rev_p {
