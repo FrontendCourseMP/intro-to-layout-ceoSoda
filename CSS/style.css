@@ -206,7 +206,7 @@ body {
   text-decoration: none;
 }
 
-.ul {
+.intr_ul {
   font-size: 1.8rem;
   font-family: inter, sans-serif;
   font-weight: 300;
@@ -215,7 +215,7 @@ body {
   margin: 0 auto;
 }
 
-.li {
+.intr_li {
   display: flex;
   flex-direction: row;
   gap: 1rem;
