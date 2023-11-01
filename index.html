@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KazakhMebel</title>
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="img" href="img/">
+    <title>KazakhMebel</title>
 </head>
 
 <body>
@@ -20,13 +20,13 @@
     </header>
     <main>
         <section class="whitetextsection">
-            <div class="wrapper intro_section-cor">
-                <h1 class="intro_ttl1 container">Уличная мебель <img src="./img/Waves.png" alt="pic"><img
-                        src="./img/Waves.png" alt="pic"><span class="intro_ttl2"> из натурального дерева</span><span
-                        class="intro_ttl3">от Казахстанского производителя</span></h1>
-                <a href="#yak" class="btn btn_txt">Оставить заявку</a>
-            </div>
-            <div>
+            <div class="wrapper">
+                <div class="intro_section-cor">
+                    <h1 class="intro_ttl1 container">Уличная мебель <img src="./img/Waves.png" alt="pic"><img
+                            src="./img/Waves.png" alt="pic"><span class="intro_ttl2"> из натурального дерева</span><span
+                            class="intro_ttl3">от Казахстанского производителя</span></h1>
+                    <a href="#yak" class="btn btn_txt">Оставить заявку</a>
+                </div>
                 <ul class="intr_ul wrapper">
                     <li class="intr_li">
                         <img src="./img/icons8-доставляется-100-2.png" alt="" class="li_img-dos"><img
@@ -53,9 +53,7 @@
             <div class="wrapper">
                 <h2 class="ttl">О компании</h2>
                 <img class="info_img" src="img/Rectangle4.png" alt=" ">
-            </div>
-            <div>
-                <ul class="wrapper info_ul">
+                <ul class="info_ul">
                     <li class="info_cont">
                         <img src="img/Ellipse25.png" alt="" class="info_elip">
                         <img src="img/Ellipse24.png" alt="" class="info_elip">
@@ -78,9 +76,9 @@
             </div>
             <a href="#yak" class="btn btn_txt">Оставить заявку</a>
         </section>
-        <section class="wrapper">
-            <h2 class="ttl">Об изделияx</h2>
-            <div>
+        <section>
+            <div class="wrapper">
+                <h2 class="ttl">Об изделияx</h2>
                 <ul class="info_ul">
                     <li class="product_li">
                         <img src="img/Group12.svg" alt=" " class="product_img">
@@ -117,9 +115,9 @@
                 </ul>
             </div>
         </section>
-        <section class="wrapper">
-            <h2 class="ttl">Каталог</h2>
-            <div>
+        <section>
+            <div class="wrapper">
+                <h2 class="ttl">Каталог</h2>
                 <ul class="cat_ul-s">
                     <li>
                         <img src=" " alt=" " class="cat_img-b">
@@ -131,8 +129,6 @@
                         <p class="cat_p">Крезло шезлонг</p>
                     </li>
                 </ul>
-            </div>
-            <div>
                 <ul class="container cat_p cat_ul-s">
                     <li class="cat_li">
                         <img src=" " alt=" " class="cat_img-s">
@@ -167,17 +163,17 @@
                         <p>Матрас для лежака</p>
                     </li>
                 </ul>
+                <a href="#yak" class="btn btn_txt">Оставить заявку</a>
             </div>
-            <a href="#yak" class="btn btn_txt">Оставить заявку</a>
         </section>
         <section class="whitetextsection">
-            <div class="wrapper" id="yak">
-                <h2 class="fb_ttl1">Ничего не подошло?</h2>
-                <p class="fb_ttl2">Тогда мы можем изготовить для вас мебель</p>
-                <p class="fb_ttl3">по индивидуальному дизайну</p>
-            </div>
-            <form class="frm wrapper">
-                <div class="frm_container">
+            <div class="wrapper">
+                <div id="yak">
+                    <h2 class="fb_ttl1">Ничего не подошло?</h2>
+                    <p class="fb_ttl2">Тогда мы можем изготовить для вас мебель</p>
+                    <p class="fb_ttl3">по индивидуальному дизайну</p>
+                </div>
+                <form class="frm frm_container">
                     <label for="form_name">
                         <input type="text" id="form_name" placeholder="Ваше имя*">
                     </label>
@@ -187,21 +183,20 @@
                     <label for="form_comment">
                         <textarea id="form_comment" placeholder="Ваш комментарий" class="textarea"></textarea>
                     </label>
-                </div>
-                <p class="frm_p-wh">Нажимая на кнопку, вы даете согласие на <a href=" " class="frm_p-gr">обработку
-                        персональных данных</a></p>
-                <input type="submit" value="Оставить заявку" class="btn btn_txt">
-            </form>
+                    <p class="frm_p-wh">Нажимая на кнопку, вы даете согласие на <a href=" " class="frm_p-gr">обработку
+                            персональных данных</a></p>
+                    <button class="btn btn_txt">Оставить заявку</button>
+                </form>
+            </div>
         </section>
-        <section class="wrapper">
-            <h2 class="ttl faq_ttl-align">Как получить заказ?</h2>
-            <div>
+        <section>
+            <div class="wrapper">
+                <h2 class="ttl faq_ttl-align">Как получить заказ?</h2>
                 <ul class="faq_container">
                     <li class="faq_li-flex">
                         <img src="./img/Frame.png" alt=" " class="faq_img-align">
-                        <div class="faq_li-img">
-                            <img src="./img/Waves.png" alt=" ">
-                            <img src="img/Waves.png" alt=" ">
+                        <div>
+                            <img src="./img/Group54.png" alt=" ">
                         </div>
                         <div>
                             <p class="faq_ttl">Заявка</p>
@@ -210,9 +205,8 @@
                     </li>
                     <li class="faq_li-flex">
                         <img src="./img/Frame_1.png" alt=" " class="faq_img-align">
-                        <div class="faq_li-img">
-                            <img src="./img/Waves.png" alt=" ">
-                            <img src="img/Waves.png" alt=" ">
+                        <div>
+                            <img src="./img/Group54.png" alt=" ">
                         </div>
                         <div>
                             <p class="faq_ttl">Предоплата</p>
@@ -223,123 +217,134 @@
                     </li>
                     <li class="faq_li-flex">
                         <img src="./img/Frame_2.png" alt=" " class="faq_img-align">
-                        <div class="faq_li-img">
-                            <img src="./img/Waves.png" alt=" ">
-                            <img src="img/Waves.png" alt=" ">
+                        <div>
+                            <img src="./img/Group54.png" alt=" ">
                         </div>
                         <div>
                             <p class="faq_ttl">Получение</p>
                             <p class="faq_p">Срок доставки зависит от вашего региона и занимает от 3-7 дней</p>
                         </div>
                     </li>
+                </ul>
+                <a href="#yak" class="faq_btn btn_txt">Оставить заявку</a>
             </div>
-            </ul>
-            <a href="#yak" class="faq_btn btn_txt">Оставить заявку</a>
-        </section>
-        <section class="wrapper">
-            <h2 class="ttl">Отзывы</h2>
-            <ul>
-                <li>
-                    <img src=" " alt=" ">
-                    <p class="faq_ttl">Анна Ивановна</p>
-                    <p class="rev_p">
-                        Качество и прочность этой мебели
-                        просто потрясают меня. Она
-                        изготовлена из высококачественного
-                        дерева, которое не только выглядит
-                        прекрасно, но и обладает прочными
-                        свойствами. Мебель выдерживает даже интенсивное использование и
-                        долгие периоды на открытом воздухе,
-                        сохраняя свою привлекательность
-                        и функциональность.
-                        Дачная мебель из дерева также
-                        добавила особый шарм и
-                        натуральность моему саду. Она
-                        гармонично вписывается в
-                        окружающую природу и создает
-                        приятную атмосферу для отдыха и
-                        проведения времени на природе.
-                        Кроме того, дерево придает мебели
-                        теплоту и природную красоту, что
-                        делает ее привлекательной для глаза
-                        и приятной на ощупь.
-                    </p>
-                </li>
-                <li>
-                    <img src=" " alt=" ">
-                    <p class="faq_ttl">Кирилл Котов</p>
-                    <p class="rev_p">
-                        Я бы хотел поделиться своим
-                        восхищением относительно мебели
-                        из дерева для моей дачи. Она
-                        превратила мою отдыхающую зону в
-                        настоящий райский уголок и
-                        добавила неповторимую атмосферу
-                        природы и комфорта.
-                        Первое, что я заметил,
-                        это качество изготовления. Каждая деталь моей
-                        дачной мебели тщательно вырезана
-                        и скручена, создавая прочную и
-                        устойчивую конструкцию. Дерево,
-                        используемое в изготовлении,
-                        кажется очень прочным и
-                        долговечным, что делает мою
-                        мебель идеальной для
-                        использования на открытом воздухе.
-                    </p>
-                </li>
-                <li>
-                    <img src=" " alt=" ">
-                    <p class="faq_ttl">Александр Головин</p>
-                    <p class="rev_p">
-                        В целом, дачная мебель из
-                        дерева оправдала все наши
-                        ожидания и стала незаменимым
-                        элементом нашего загородного
-                        участка. Мы наслаждаемся ее
-                        красотой, прочностью и функциональностью,
-                        и настоятельно рекомендуем ее
-                        всем, кто ищет качественную и
-                        привлекательную мебель для
-                        отдыха на своей даче.
-                </li>
-            </ul>
-            <img src=" " alt=" ">
-            <a href="#yak" class="btn btn_txt">Оставить заявку</a>
         </section>
         <section>
-            <h2 class="ttl">Наши клиенты</h2>
-            <ul class="cat_p">
-                <li>
-                    <img src=" " alt=" ">
-                    <p>Аквапарк майами</p>
-                </li>
-                <li>
-                    <img src=" " alt=" ">
-                    <p>Аквапарк Гаваии</p>
-                </li>
-                <li>
-                    <img src=" " alt=" ">
-                    <p>Аквапарк Акватун</p>
-                </li>
-                <li>
-                    <img src=" " alt=" ">
-                    <p>Бассейн Баганашил</p>
-                </li>
-                <li>
-                    <img src=" " alt=" ">
-                    <p>ТРЦ "Грандпарк</p>
-                </li>
-                <li>
-                    <img src=" " alt=" ">
-                    <p> ГК Шымбулак</p>
-                </li>
-            </ul>
+            <div class="wrapper">
+                <h2 class="ttl">Отзывы</h2>
+                <ul class="rev_ul">
+                    <li class="rev_li-flex">
+                        <div class="rev_cont">
+                            <img src="./img/Ellipse28.png" alt=" " class="rev_img">
+                            <p class="rev_ttl">Анна Ивановна</p>
+                        </div>
+                        <img src="./img/Group54.png" alt=" ">
+                        <p class="rev_p">
+                            Качество и прочность этой мебели
+                            просто потрясают меня. Она
+                            изготовлена из высококачественного
+                            дерева, которое не только выглядит
+                            прекрасно, но и обладает прочными
+                            свойствами. Мебель выдерживает даже интенсивное использование и
+                            долгие периоды на открытом воздухе,
+                            сохраняя свою привлекательность
+                            и функциональность.
+                            Дачная мебель из дерева также
+                            добавила особый шарм и
+                            натуральность моему саду. Она
+                            гармонично вписывается в
+                            окружающую природу и создает
+                            приятную атмосферу для отдыха и
+                            проведения времени на природе.
+                            Кроме того, дерево придает мебели
+                            теплоту и природную красоту, что
+                            делает ее привлекательной для глаза
+                            и приятной на ощупь.
+                        </p>
+                    </li>
+                    <li class="rev_li-flex"> 
+                        <div class="rev_cont">
+                            <img src="./img/Ellipse28.png" alt=" " class="rev_img">
+                            <p class="rev_ttl">Анна Ивановна</p>
+                        </div>
+                            <img src="./img/Group54.png" alt=" ">
+                            <p class="rev_p">
+                            Я бы хотел поделиться своим
+                            восхищением относительно мебели
+                            из дерева для моей дачи. Она
+                            превратила мою отдыхающую зону в
+                            настоящий райский уголок и
+                            добавила неповторимую атмосферу
+                            природы и комфорта.
+                            Первое, что я заметил,
+                            это качество изготовления. Каждая деталь моей
+                            дачной мебели тщательно вырезана
+                            и скручена, создавая прочную и
+                            устойчивую конструкцию. Дерево,
+                            используемое в изготовлении,
+                            кажется очень прочным и
+                            долговечным, что делает мою
+                            мебель идеальной для
+                            использования на открытом воздухе.
+                        </p>
+                    </li>
+                    <li class="rev_li-flex"> 
+                        <div class="rev_cont">
+                            <img src="./img/Ellipse28.png" alt=" " class="rev_img">
+                            <p class="rev_ttl">Анна Ивановна</p>
+                        </div>
+                            <img src="./img/Group54.png" alt=" ">
+                            <p class="rev_p">
+                            В целом, дачная мебель из
+                            дерева оправдала все наши
+                            ожидания и стала незаменимым
+                            элементом нашего загородного
+                            участка. Мы наслаждаемся ее
+                            красотой, прочностью и функциональностью,
+                            и настоятельно рекомендуем ее
+                            всем, кто ищет качественную и
+                            привлекательную мебель для
+                            отдыха на своей даче.
+                    </li>
+                </ul>
+                <a href="#yak" class="btn btn_txt">Оставить заявку</a>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h2 class="ttl">Наши клиенты</h2>
+                <ul class="cat_p">
+                    <li>
+                        <img src=" " alt=" ">
+                        <p>Аквапарк майами</p>
+                    </li>
+                    <li>
+                        <img src=" " alt=" ">
+                        <p>Аквапарк Гаваии</p>
+                    </li>
+                    <li>
+                        <img src=" " alt=" ">
+                        <p>Аквапарк Акватун</p>
+                    </li>
+                    <li>
+                        <img src=" " alt=" ">
+                        <p>Бассейн Баганашил</p>
+                    </li>
+                    <li>
+                        <img src=" " alt=" ">
+                        <p>ТРЦ "Грандпарк</p>
+                    </li>
+                    <li>
+                        <img src=" " alt=" ">
+                        <p> ГК Шымбулак</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
-        <h2 class="ttl">Контакты</h2>
-        <div class="whitetextsection">
+        <div class="wrapper">
+            <h2 class="ttl">Контакты</h2>
             <img src=" " alt=" ">
             <ul class="contacts">
                 <li>
