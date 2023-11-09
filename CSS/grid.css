@@ -1,37 +1,141 @@
-body{
+body {
     box-sizing: border-box;
 }
+
+.wrapper-2 {
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
 .container {
-    width: 250px;
-    height: 252px;
+    width: 255px;
+    height: 257px;
     display: grid;
-    background-color: antiquewhite;
+    background-color: black;
+    gap: 5px;
     border-radius: 20px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.068);
     grid-template-columns: repeat(4, 1fr) 10%;
     grid-template-rows: repeat(6, 1fr);
     grid-auto-flow: row;
 }
-.item1{ 
+
+.item1 {
     background-color: red;
-    border-top-left-radius: 20px;
     grid-column: span 2;
-    border-right: 2.5px solid;
+    border-top-left-radius: 20px;
 }
-.item2{
+
+.item2 {
     background-color: white;
-    border-right:2.5px solid;
-    border-left:2.5px solid;
     grid-column: span 1;
 }
+
 .item3 {
     background-color: white;
-    border-top-right-radius: 20px;
-    border-left: 2.5px solid;
     grid-column: span 1;
+    border-top-right-radius: 20px;
 }
-.item4{
+
+.item4,
+.item4-1 {
     background-color: white;
-    border: 2.5px solid;
     grid-column: span 2;
+    margin-left: 5px;
+}
+
+.item4-1 {
+    margin-left: inherit;
+}
+
+.item5 {
+    background-color: white;
+    grid-row: span 2;
+}
+
+.item6 {
+    background-color: blue;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.item7 {
+    background-color: black;
+    grid-column: span 2;
+}
+
+.item8,
+.item9 {
+    background-color: yellow;
+    grid-row: span 2;
+}
+
+.item9 {
+    margin-left: 5px;
+}
+
+.item10 {
+    background-color: red;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.item11 {
+    background-color: white;
+}
+
+.container-graph {
+    border: 5px solid rgb(9, 9, 9);
+    border-radius: 20px;
+    display: grid;
+    width: 1060px;
+    height: 600px;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 600px;
+    margin-top: 2rem;
+}
+
+.dashboard {
+    display: grid;
+    grid-column: 1;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr)
+}
+
+.container-graph2 {
+    display: grid;
+    gap: 10px;
+    grid-column: 2;
+    grid-template-columns: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: row;
+}
+
+.gr_1 {
+    grid-column: span 6;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.gr_2 {
+    grid-column: span 2;
+    padding: 10px;
+}
+
+.gr_3 {
+    grid-column: span 2;
+    padding: 10px;
+}
+
+.gr_5 {
+    grid-column: span 3;
+    padding: 10px;
 }
