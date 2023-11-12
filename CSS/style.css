@@ -86,7 +86,9 @@
   --primary-color: #F3F1EC;
   font-size: 62.5%;
 }
-
+ul {
+  list-style: none;
+}
 .wrapper {
   max-width: 340px;
   width: 100%;
@@ -343,7 +345,7 @@ body {
 .product_bench2 {
   position: absolute;
   top: 14rem;
-  left: 4.5rem;
+  left: 3.5rem;
 }
 
 .product_bench2 {
@@ -384,6 +386,17 @@ body {
   font-weight: 600;
 }
 
+.cat_grd {
+  display: grid;
+  padding: 0;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.cat_grd-b {
+  grid-column: span 2;
+} 
+
 .cat_li {
   display: flex;
   flex-direction: column;
@@ -410,9 +423,22 @@ body {
   font-family: Philosopher, serif;
   color: var(--tex-color-2);
   font-weight: 700;
-
 }
 
+.cli_crd {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: white;
+  border-radius: 2rem;
+}
+.cli_crd-p {
+  margin: 0.5rem 2rem;
+}
+.cli_crd-img {
+  padding: 1rem 3rem 0;
+}
 .fb_ttl1 {
   font-size: 3.2rem;
   font-family: Philosopher, sans-serif;
@@ -568,15 +594,23 @@ body {
   font-weight: 400;
   margin: 2.5rem 0.3rem 4rem 1.8rem;
 }
-
+.con_map {
+  width: 100%;
+  height: 100%;
+  margin: 3.7rem 0 0;
+  padding: 0;
+}
 .contacts {
   font-size: 1.6rem;
   font-family: Philosopher, serif;
-  text-align: center;
   color: var(--tex-color);
   font-weight: 400;
 }
-
+.con_bck {
+  background-color: #9EAF7C;
+  width: 100%;
+  height: 100%;
+}
 .textarea {
   resize: none;
 }
