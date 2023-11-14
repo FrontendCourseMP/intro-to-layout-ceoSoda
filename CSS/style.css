@@ -114,7 +114,8 @@ body {
   right: 0;
 }
 
-.whitetextsection {
+.whitetextsection,
+.frm_bck {
   height: 65.1rem;
   background-image: url(../img/559bb388d739db9c58bf1a58ea9d6084.png);
   background-color: #9EAF7C;
@@ -247,7 +248,8 @@ body {
   top: 1.2rem
 }
 
-.intr_base-img {
+.intr_base-img, 
+.frm_top-img {
   display: flex;
   position: relative;
   top: 1px;
@@ -433,10 +435,10 @@ body {
 .fb_ttl1 {
   font-size: 3.2rem;
   font-family: Philosopher, sans-serif;
-  text-align: center;
   color: var(--tex-color);
   font-weight: 300;
-  padding-top: 9rem;
+  padding-top: 5rem;
+  margin: 0;
 }
 
 .fb_ttl2 {
@@ -444,7 +446,7 @@ body {
   font-family: inter, sans-serif;
   color: var(--tex-color);
   font-weight: 300;
-  margin: auto;
+  margin: 1.4rem 0 0;
 }
 
 .fb_ttl3 {
@@ -453,9 +455,12 @@ body {
   color: var(--tex-color);
   font-weight: 400;
   font-style: italic;
-  margin: 0.8rem 0;
+  margin: 0.8rem 0 4.8rem;
 }
+.frm_top-img {
+  transform: none;
 
+}
 .frm {
   font-size: 1.4rem;
   font-family: inter, sans-serif;
@@ -472,6 +477,29 @@ body {
 
 }
 
+.frm_name {
+  background-color: white;
+  border-radius: 6rem;
+  border-style: none;
+  height: 4.8rem;
+  width: 100%;
+  padding-left: 2.1rem;
+}
+
+.frm_com {
+  background-color: white;
+  border-radius: 2rem;
+  border-style: none;
+  height: 11rem;
+  width: 100%;
+  padding: 2rem;
+}
+
+.frm_bck {
+  background-image: url(../img/background_2.png);
+
+}
+
 .frm_p-wh {
   font-size: 1rem;
   font-family: inter, sans-serif;
@@ -479,13 +507,14 @@ body {
   font-weight: 400;
   text-align: left;
   padding: 0.5rem;
+  margin: 0;
 }
 
 .frm_p-gr {
   font-size: 1rem;
   font-family: inter, sans-serif;
   text-align: center;
-  color: var(--tex-color-2);
+  color: #9EAF7C;
   font-weight: 400;
 }
 
