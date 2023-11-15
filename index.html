@@ -173,17 +173,17 @@
                 </div>
                 <form class="frm frm_container">
                     <label for="form_name">
-                        <input class="frm_name" type="text" id="form_name" placeholder="Ваше имя*">
+                        <input class="frm_name" type="text" id="form_name" placeholder="Ваше имя*" required>
                     </label>
                     <label for="form_tel">
-                        <input class="frm_name" type="tel" id="form_tel" placeholder="Ваш телефон*">
+                        <input class="frm_name" type="tel" id="form_tel" placeholder="Ваш телефон*" required>
                     </label>
                     <label for="form_comment">
-                        <textarea class="frm_com" id="form_comment" placeholder="Ваш комментарий" class="textarea"></textarea>
+                        <textarea class="frm_com textarea" id="form_comment" placeholder="Ваш комментарий"></textarea>
                     </label>
                     <p class="frm_p-wh">Нажимая на кнопку, вы даете согласие на <a href=" " class="frm_p-gr">обработку
                             персональных данных</a></p>
-                    <button class="btn btn_txt">Оставить заявку</button>
+                    <button class="btn btn_txt" type="submit">Оставить заявку</button>
                 </form>
             </div>
             <div class="intr_bas">
@@ -384,6 +384,7 @@
                                 href="mailto:info@fintax.kz">info@fintax.kz</a></p>
                     </li>
                 </ul>
+            </div>
         </div>
     </footer>
 </body>
