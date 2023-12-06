@@ -266,14 +266,17 @@ body {
   color: var(--tex-color-2);
   font-style: italic;
 }
-
+.info_sec {
+  display: flex;
+  flex-direction: column;
+}
 .info_ul {
   display: flex;
   flex-direction: column;
   position: relative;
   list-style-type: none;
   padding: 0;
-  overflow: hidden;
+ 
 }
 
 .info_img {
@@ -349,6 +352,7 @@ body {
   position: absolute;
   top: 14rem;
   left: 3.5rem;
+  overflow: hidden;
 }
 
 .product_bench2 {
@@ -517,7 +521,10 @@ body {
   color: #9EAF7C;
   font-weight: 400;
 }
-
+.faq_sec {
+  display: flex;
+  flex-direction: column;
+}
 .faq_ttl-align {
   margin: 1.7rem;
 }
@@ -666,7 +673,6 @@ body {
 .textarea {
   resize: none;
 }
-<<<<<<< HEAD
 
 @media screen and (min-width:600px) {
   .whitetextsection {  
@@ -680,5 +686,3 @@ body {
     background-size: cover;}
 
 }
-=======
->>>>>>> d42b1974c964d05041e8ea755642db4aa226c50f
