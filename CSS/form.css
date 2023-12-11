@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: solid;
+    border-color: #9EAF7C;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+.form_legend {
+    font-size: 2.7rem;
+    font-family: inter, sans-serif;
+    font-weight: 300;
+    color: var(--tex-color);
+    list-style-type: none;
+  }
+.reg_ttl {
+    font-size: calc(3.4rem + 1vw);
+    font-weight: 300;
+    font-family: inter, sans-serif;
+    text-align: left;
+    color: var(--tex-color);
+    margin: 0;
+    padding-top: 20rem;
+}
+.form_txt,
+.form_txt-gen {
+    display: block;
+    font-size: 2rem;
+    font-family: inter, sans-serif;
+    font-weight: 300;
+    color: var(--tex-color);
+    list-style-type: none;
+    margin: 1rem 0 1rem 0;
+    padding-right: 30rem;
+}
+.form_txt-gen {
+    display: inline;
+    margin: 1rem;
+    padding-right: 0;
+}
+.btn_reset {
+    background-color: #9EAF7C;
+    display: block;
+    border-radius: 1rem;
+    text-decoration: none;
+    width: 20rem;
+    height: 5.8rem;
+    text-align: center;
+    border: none;
+    margin: 0;
+    padding: 2rem;
+    cursor: pointer;
+}
+select {
+    background-color: #9EAF7C;
+    display: block;
+    border-radius: 1rem;
+    text-decoration: none;
+    width: 100%;
+    height: 5rem;
+    cursor: pointer;
+}
+#btn_form {
+    margin-top: 5rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}

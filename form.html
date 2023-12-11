@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/form.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="img" href="img/">
+    <title>FORM</title>
+</head>
+
+<body>
+    <header class="block wrapper">
+        <div class="head_up">
+            <p class="head_txt-adr">г.Алматы, ул. Абая д.68</p>
+            <p class="head_txt-up">Звоните, Пн-Пт с 10:00-18:00</p>
+            <a class="head_txt-ph" href="">+7 (900)900-10-10</a>
+        </div>
+        <div class="flex">
+            <a class="head_logo" href=" ">
+                <picture>
+                    <source srcset="./img/Logo_big.svg" media="(min-width:1400px)">
+                    <img src="./img/logo.svg" alt=" ">
+                </picture>
+            </a>
+            <div class="head_menu">
+                <button class="head_txt">Главная</button>
+                <button class="head_txt">О компании</button>
+                <button class="head_txt">Об изделиях</button>
+                <button class="head_txt">Отзывы</button>
+                <button class="head_txt">Сотрудничество</button>
+                <div class="head_social">
+                    <button class="head_btn-vs"><img src="./img/instagram.svg" alt="инста"></button>
+                    <button class="head_btn-vs"><img src="./img/telegram.svg" alt="телега"></button>
+                    <button class="head_btn-vs"><img src="./img/whatsapp.svg" alt="ватсап"></button>
+                </div>
+            </div>
+            <button class="head_btn"><img class="head_menu-btn" src="../img/menu.svg" alt="menu"></button>
+        </div>
+    </header>
+    <main>
+        <section class="whitetextsection">
+            <div class="wrapper">
+                <h1 class="reg_ttl">Регистрация</h1>
+                <form class="frm" action="//httpbin.org/post" method="post">
+                    <fieldset>
+                        <legend class="form_legend">Личная информация</legend>
+                        <div>
+                            <label class="form_txt">Ваше имя*</label>
+                            <label for="form_name">
+                                <input class="frm_name" type="text" id="form_name" placeholder="Иванов Иван" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="form_txt">Дата рождения</label>
+                            <label for="form_date">
+                                <input class="frm_name" type="date" id="form_date">
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input id="radio-1" type="radio" name="gender" checked>
+                            </label>
+                            <label class="form_txt-gen" for="radio-1">Мужской</label>
+                        </div>
+                        <div>
+                            <label>
+                                <input id="radio-2" type="radio" name="gender">
+                            </label>
+                            <label class="form_txt-gen" for="radio-2">Женский</label>
+                        </div>
+                        <div>
+                            <label class="form_txt">Введите пароль*</label>
+                            <label for="form_password">
+                                <input class="frm_name" type="password" id="form_password" placeholder="В123В0099" required>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="form_legend">Контактные данные</legend>
+                        <label class="form_txt">Ваш телефон*</label>
+                        <label for="form_tel">
+                            <input class="frm_name" type="tel" id="form_tel" placeholder="+7 (999) 888 77 66" required>
+                        </label>
+                        <label class="form_txt">Ваш E-Mail*</label>
+                        <label for="form_mail">
+                            <input class="frm_name" type="email" id="form_mail" placeholder="example@ex.com" required>
+                        </label>
+                        <label class="form_txt">Время связи</label>
+                        <label>
+                            <select class="select" name="time" id="form-select">
+                                <option value="">-- Выберите время --</option>
+                                <option value="morning">Утро</option>
+                                <option value="day">День</option>
+                                <option value="evening">Вечер</option>
+                                <option value="night">Ночь</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <label>
+                        <input class="btn_reset btn_txt" type="reset">
+                    </label>
+                    <button id="btn_form" class="btn btn_txt btn_fb btn_form" type="submit">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h2 class="ttl wrapper">Контакты</h2>
+            <div class="con_mapp"></div>
+            <div class="con_map-big">
+                <div class="con_bck">
+                    <ul class="contacts wrapper con_ul">
+                        <li>
+                            <a class="con_a" href="/grid.html">GRID.HTML</a>
+                        </li>
+                        <li>
+                            <p>Адрес - Москва, Степана Разина 11</p>
+                        </li>
+                        <li>
+                            <p>Телефон - <a class="con_a" href="">7 982 658 25 85</a></p>
+                        </li>
+                        <li>
+                            <p>ОО «Консалтинговая Компания</p>
+                        </li>
+                        <li>
+                            <p>Financial-Tax Analytics» БИН 181 040 010 13</p>
+                        </li>
+                        <li>
+                            <p>Юридический адрес: г.Астана,</p>
+                        </li>
+                        <li>
+                            <p>пр.Мәңгілік Ел, 19, к.30</p>
+                        </li>
+                        <li>
+                            <p>Почтовый адрес: г.Астана, ул.Кордай, 2,</p>
+                        </li>
+                        <li>
+                            <p>кв.60</p>
+                        </li>
+                        <li>
+                            <p>ИИК KZ76 9650 3F00 0817 5335</p>
+                        </li>
+                        <li>
+                            <p>БИК IRTYKZKA в АО "ForteBank</p>
+                        </li>
+                        <li>
+                            <p class="con_p">мобильный/ватсап <a class="con_a" href=" ">+ 7 777 775 77 68</a>, <a
+                                    class="con_a" href="mailto:info@fintax.kz">info@fintax.kz</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
