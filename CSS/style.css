@@ -253,7 +253,10 @@ body {
 .li_img-dos,
 .li_img-cot,
 .li_img-shi {
-  position: absolute;
+  background-color: #9EAF7C;
+  border-radius: 3rem;
+  width: 3rem;
+  height: 3rem;
   left: 1.3rem;
   top: 1.2rem
 }
