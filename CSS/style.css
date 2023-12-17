@@ -79,12 +79,20 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: #9EAF7C;
+}
+
 :root {
   --background-color: gray;
   --tex-color: white;
   --tex-color-2: #4B4B4B;
   --primary-color: #F3F1EC;
   font-size: 62.5%;
+}
+
+::placeholder {
+  color: #9EAF7C;
 }
 
 ul {
@@ -213,6 +221,17 @@ body {
   margin: 4.1rem auto;
   padding: 2rem;
   cursor: pointer;
+  transition: background-color 0.6s, transform 0.6s, color 0.6s, box-shadow 0.2s;
+}
+
+.btn:active {
+  box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+
+.btn:hover {
+  background-color: #ddf4ae;
+  color: #000000;
+  transform: scale(110%);
 }
 
 .btn_txt {
@@ -783,6 +802,21 @@ body {
     font-weight: 300;
     background-color: inherit;
     border: none;
+    text-align: center;
+    transition: color 1s, text-decoration-line 1s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .head_txt:hover,
+  .head_txt:focus {
+    color: #9EAF7C;
+    text-decoration-line: underline;
+  }
+
+  .head_link {
+    display: block;
+    align-self: center;
   }
 
   .head_btn-vs {
@@ -842,7 +876,7 @@ body {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 3.8rem;
-    
+
   }
 
   .ttl {
@@ -1113,6 +1147,21 @@ body {
     font-weight: 300;
     background-color: inherit;
     border: none;
+    text-align: center;
+    transition: color 1s, text-decoration-line 1s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .head_txt:hover,
+  .head_txt:focus {
+    color: #9EAF7C;
+    text-decoration-line: underline;
+  }
+
+  .head_link {
+    display: block;
+    align-self: center;
   }
 
   .head_btn-vs {
