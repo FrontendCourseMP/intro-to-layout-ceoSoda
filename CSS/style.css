@@ -95,8 +95,23 @@
   color: #9EAF7C;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #d5f496;
+}
+
 ul {
   list-style: none;
+}
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .wrapper {
@@ -1165,6 +1180,7 @@ body {
   }
 
   .head_btn-vs {
+    display: inline-block;
     background: transparent;
     border: none;
   }

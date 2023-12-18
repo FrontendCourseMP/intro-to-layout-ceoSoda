@@ -2,6 +2,7 @@
         padding-top: 20rem;
         padding-left: 50rem;
         perspective: 100em;
+        padding-bottom: 10rem;
     }
 
     .card {
@@ -11,7 +12,8 @@
     }
 
     .card:hover {
-        animation: spin 5s infinite linear;
+        cursor: pointer;
+        animation: spin 2s infinite linear;
         transform-style: preserve-3d;
     }
 
@@ -32,4 +34,39 @@
         position: relative;
         transform: rotateY(180deg);
         bottom: 123%;
+    }
+
+    .marquee {
+        --gap: 1rem;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        user-select: none;
+        gap: var(--gap);
+    }
+
+    .marquee__content {
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        gap: var(--gap);
+        min-width: 100%;
+    }
+
+    @keyframes scroll {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    .marquee__content {
+        animation: scroll 10s linear infinite;
+    }
+
+    .core {
+        padding: 0;
     }
