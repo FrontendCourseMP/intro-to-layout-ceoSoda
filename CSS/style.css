@@ -78,7 +78,9 @@
 * {
   box-sizing: border-box;
 }
-
+header {
+  background-color: #00000015;
+}
 ::selection {
   background-color: #597228;
 }
@@ -163,6 +165,7 @@ body {
 }
 
 .head_menu {
+  
   padding-left: 10rem;
   width: 100%;
   height: 100%;
