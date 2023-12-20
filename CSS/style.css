@@ -80,7 +80,7 @@
 }
 
 ::selection {
-  background-color: #9EAF7C;
+  background-color: #597228;
 }
 
 :root {
@@ -92,7 +92,7 @@
 }
 
 ::placeholder {
-  color: #9EAF7C;
+  color: #597228;
 }
 
 *:focus {
@@ -144,7 +144,7 @@ body {
 .frm_bck {
   height: 65.1rem;
   background-image: url(../img/background_1.jpeg);
-  background-color: #9EAF7C;
+  background-color: #597228;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -224,7 +224,7 @@ body {
 
 .btn,
 .faq_btn {
-  background-color: #9EAF7C;
+  background-color: #597228;
   margin: 3rem auto;
   display: block;
   border-radius: 1rem;
@@ -287,7 +287,7 @@ body {
 .li_img-dos,
 .li_img-cot,
 .li_img-shi {
-  background-color: #9EAF7C;
+  background-color: #597228;
   padding: 1rem;
   border-radius: 100%;
   width: 6rem;
@@ -347,7 +347,7 @@ body {
 }
 
 .info_txt-gr {
-  color: #9EAF7C;
+  color: #597228;
   font-size: calc(7rem + 1vw);
   text-align: center;
   font-family: Philosopher, serif;
@@ -369,7 +369,7 @@ body {
   font-family: Philosopher, serif;
   font-weight: 700;
   text-align: center;
-  color: #9EAF7C;
+  color: #597228;
   margin: 5.3rem 0px 0px;
 }
 
@@ -572,7 +572,7 @@ body {
   font-size: 1rem;
   font-family: inter, sans-serif;
   text-align: center;
-  color: #9EAF7C;
+  color: #597228;
   font-weight: 400;
 }
 
@@ -725,7 +725,7 @@ body {
 }
 
 .con_bck {
-  background-color: #9EAF7C;
+  background-color: #597228;
   width: 100%;
   height: 100%;
 }
@@ -803,7 +803,7 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
     text-decoration: none;
-    border: #9EAF7C;
+    border: #597228;
     border-style: solid;
     border-radius: 10rem;
     border-width: 1.5px;
@@ -825,7 +825,7 @@ body {
 
   .head_txt:hover,
   .head_txt:focus {
-    color: #9EAF7C;
+    color: #597228;
     text-decoration-line: underline;
   }
 
@@ -1012,7 +1012,7 @@ body {
   }
 
   .btn_cat {
-    background-color: #9EAF7C;
+    background-color: #597228;
     display: block;
     border-radius: 1rem;
     text-decoration: none;
@@ -1093,7 +1093,7 @@ body {
     display: block;
     z-index: 2;
     position: absolute;
-    background-color: #9EAF7C;
+    background-color: #597228;
     width: 62rem;
     height: 50rem;
     margin: 7rem auto 5rem 14rem;
@@ -1148,7 +1148,7 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
     text-decoration: none;
-    border: #9EAF7C;
+    border: #597228;
     border-style: solid;
     border-radius: 10rem;
     border-width: 1.5px;
@@ -1170,7 +1170,7 @@ body {
 
   .head_txt:hover,
   .head_txt:focus {
-    color: #9EAF7C;
+    color: #597228;
     text-decoration-line: underline;
   }
 
@@ -1340,7 +1340,7 @@ body {
   }
 
   .btn_cat {
-    background-color: #9EAF7C;
+    background-color: #597228;
     display: block;
     border-radius: 1rem;
     text-decoration: none;
@@ -1420,7 +1420,7 @@ body {
   .con_bck {
     display: block;
     position: absolute;
-    background-color: #9EAF7C;
+    background-color: #597228;
     width: 62rem;
     height: 50rem;
     margin: 7rem auto 5rem 14rem;
