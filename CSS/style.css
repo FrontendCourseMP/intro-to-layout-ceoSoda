@@ -78,11 +78,24 @@
 * {
   box-sizing: border-box;
 }
+
 header {
   background-color: #00000015;
 }
+
 ::selection {
   background-color: #597228;
+}
+
+.skip-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px 15px;
+  color: #18191c;
+  background: #10F3AF;
+  transform: translateY(-100%);
 }
 
 :root {
@@ -165,7 +178,7 @@ body {
 }
 
 .head_menu {
-  
+
   padding-left: 10rem;
   width: 100%;
   height: 100%;
